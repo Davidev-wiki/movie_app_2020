@@ -1,16 +1,15 @@
 import React from "react";
-import Food, { foodILike, renderFood } from "./Food";
+import Food, { foodILike } from "./Food";
 
 function App() {
-  return (
-      <div>
-          {foodILike.map(renderFood)}
-          {/*{foodILike.map(dish => (*/}
-          {/*    <Food name={dish.name} picture={dish.image}/>*/}
-          {/*))}*/}
-      </div>
+    return (
+        <div>
+            {foodILike.map(dish => (
+                <Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating} />
+            ))}
+        </div>
 
-  )
+    )
 }
 
 export default App;
