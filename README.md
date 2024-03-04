@@ -1,70 +1,45 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>React 영화 소개 웹서비스(클론코딩)</h1>
+<hr>
+리액트 앱 클론 코딩 with 노마드코더<br>
+<p>
+<a href="https://davidev-wiki.github.io/movie_app_2020/"> 서비스 미리보기</a>
+</p>
+<br>
+<h3>학습목표</h3>
+<hr>
+<ul>
+    <li>리액트의 개발환경 체험</li>
+    <li>리액트로 웹서비스 개발</li>
+</ul>
+<br>
+<h3>주요 기능</h3>
+<hr>
+<ul>
+    <li>반응형 페이지 구현</li>
+    <li>20개의 영화정보 조회 api 구현 (평점순)</li>
+    <li>새로고침 없는 페이지간 연결 및 리다이렉트</li>
+</ul>
+<br>
+<h3>개발환경</h3>
+<hr>
+<ul>
+    <li>Node.js</li>
+    <li>Create-react-App</li>
+    <li>IntelliJ</li>
+</ul>
+<ul>
+    <li>npm</li>
+    <li>npx</li>
+    <li>prop-types</li>
+    <li>react-router-dom</li>
+    <li>axios</li>
+</ul>
+<br>
+<h3>레퍼런스</h3>
+<hr>
+<ul>
+    <li><a href="https://create-react-app.dev/docs/getting-started">Create React App</a>
+    <li><a href="https://ko.legacy.reactjs.org/docs/react-api.html">React 최상위 API</a>
+    <li><a>ChatGPT 3.5</a></li>
+</ul>
+<br>
