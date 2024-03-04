@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Davidev-wiki/movie_app_2020/static/css/main.b760b422.css",
+    "main.js": "/Davidev-wiki/movie_app_2020/static/js/main.ba47f9b4.js",
+    "index.html": "/Davidev-wiki/movie_app_2020/index.html",
+    "main.b760b422.css.map": "/Davidev-wiki/movie_app_2020/static/css/main.b760b422.css.map",
+    "main.ba47f9b4.js.map": "/Davidev-wiki/movie_app_2020/static/js/main.ba47f9b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b760b422.css",
+    "static/js/main.ba47f9b4.js"
+  ]
+}
