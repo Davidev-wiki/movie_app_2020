@@ -1,43 +1,24 @@
-import React from "react";
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import './App.css';
+import About from './routes/About';
+import Home from './routes/Home';
+import Navigation from './components/Navigation';
+import Detail from './routes/Detail';
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-        console.log('constructor!')
-    }
-
-    componentDidMount() {
-        console.log('componentDidMount')
-    }
-
-    componentDidUpdate() {
-        console.log('componentDidUpdate')
-    }
-
-    componentWillUnmount() {
-        console.log('componentWillUnmount')
-    }
-
-    state = {
-        count: 0,
-    }
-
-    add = () => {
-        this.setState({ count: this.state.count + 1 })
-    }
-
-    minus = () => {
-        this.setState({ count: this.state.count - 1 })
-    }
-
-    render() {
-        console.log('render')
-        return <div>
-            <h1>The number is: {this.state.count}</h1>
-            <button onClick={this.add}>Add</button>
-            <button onClick={this.minus}>Minus</button>
+function App(){
+    return (
+        <div>
+            <HashRouter>
+                <Routes>
+                    <Route exact={true} path='/' element={<Home />}></Route>
+                    <Route path='/about' element={<About />}></Route>
+                    <Route path='/movie-detail' element={<Detail />}></Route>
+                </Routes>
+                <Navigation />
+            </HashRouter>
         </div>
-    }
+    );
 }
 
 export default App;
